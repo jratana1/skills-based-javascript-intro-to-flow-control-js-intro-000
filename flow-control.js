@@ -9,7 +9,13 @@ function teenager(age) {if (13<=age && age < 19)
 
 }
 
-function ageChecker(age) {
+function ageChecker(age) {if (13<=age && age < 19)
+    {return ("You are a teenager!")}
+  elseif (age<13)
+    {return("You are a kid")}
+    else {return("You are a grownup")}
+
+}
 
 }
 
